@@ -1,9 +1,9 @@
 import React, {FC} from 'react';
 import {classNames} from "shared/lib/classNames/classNames";
-import cls from './ThemeSwitcher.module.scss'
+import cls from 'widgets/ThemeSwitcher/ui/ThemeSwitcher.module.scss'
 import {Theme, useTheme} from "app/providers/ThemeProvider";
-import LightIcon from '../../assets/icons/theme-light.svg'
-import DarktIcon from '../../assets/icons/theme-dark.svg'
+import LightIcon from 'shared/assets/icons/theme-light.svg'
+import DarktIcon from 'shared/assets/icons/theme-dark.svg'
 
 
 
