@@ -6,10 +6,7 @@ const MainPage = () => {
 
   return (
     <div>
-      {/* eslint-disable-next-line i18next/no-literal-string */}
       {t('Главная страница')}
-      description
-      description
     </div>
   );
 };
