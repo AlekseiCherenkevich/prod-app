@@ -24,5 +24,8 @@ export function buidWebpackConfig(options: BuildOptions): webpack.Configuration 
     resolve: buildRelolvers(options),
     devtool: 'inline-source-map',
     devServer: buildDevServer(options),
+    performance: {
+      hints: false,
+    },
   };
 }
